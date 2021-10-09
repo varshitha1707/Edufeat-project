@@ -1,0 +1,42 @@
+#Nav{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+#Nav-Links{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 164%;
+    color: #0A2540;
+    }
+
+#logo{
+    position: relative;
+    left: 20px;
+}
+#logo-img{
+    /* position: absolute; */
+    width: 80%;
+}
+
+#OpenDrawer{
+    position: absolute;
+    right: 20px;
+}
+    
+    #OpenDrawer:hover{
+        cursor: pointer;
+    }
+
+@media only screen and (max-width: 800px){
+    #Nav-Links{
+        display: none;
+    }
+} 
+
+@media only screen and (min-width: 800px){
+    #OpenDrawer{
+        display: none;
+    }
+}
