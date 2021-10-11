@@ -1,29 +1,39 @@
-.Benefits-UpContainer{
-    background-color: #F9F9FA;
+.ToW-UpContainer{
+    background-color: #fff;
 }
-.Benefits-title{
+.ToW-title{
     padding-top: 50px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
-    color: #273468;
+    color: #0A2540;;
     text-align: center;
-
 }
-.Benefits-Main-Container{
+.ToW-subtitle{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    /* line-height: 54px; */
+    text-align: center;
+    color: #000000;
+}
+
+
+.ToW-Main-Container{
     margin-top: 90px;
     width: inherit;
     padding:30px;
-    background: #F9F9FA;
+    background: #fff;
 }
-.Benefits-grid-container{
+.ToW-grid-container{
     padding-bottom: 100px;
     padding-left: 40px;
 
 }
 
-.Benefits-img{
+.ToW-img{
     display: block;
     margin: auto;
     float: left;
@@ -31,42 +41,41 @@
     width: 85%;
 }
 
-.Benefits-grid-title{
+.ToW-grid-title{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 35px;
     text-align: left;
-    color: #273468
 }
 
-.Benefits-grid-text{
+.ToW-grid-text{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    color: #474747;
+    color: #000000;
 }
 
 
 @media (max-width: 600px) {
     
-    .Benefits-grid-title{
+    .ToW-grid-title{
         font-size: 30px;
     }
     
-    .Benefits-grid-text{
+    .ToW-grid-text{
         font-size: 18px;
     }
 }
 
 @media (max-width: 350px) {
 
-    .Benefits-grid-title{
+    .ToW-grid-title{
         font-size: 25px;
     }
     
-    .Benefits-grid-text{
+    .ToW-grid-text{
         font-size: 12px;
     }
 }

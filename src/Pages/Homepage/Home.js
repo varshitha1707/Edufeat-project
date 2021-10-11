@@ -3,6 +3,7 @@ import Nav from '../Components/Nav/Nav'
 import Hero from './Components/Hero/Hero'
 import Slider from '../Components/slider'
 import Benefits from './Components/Benefits/Benefits'
+import Tow from './Components/TypesofWork/ToW'
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <Hero/>
             {/* <Slider/> */}
             <Benefits/>
+            <Tow/>
         </div>
     )
 }

@@ -26,7 +26,7 @@ const  AlternatingGrid = (props) => {
                     <Grid item xs={12} sm={12} md={6} lg={6} style={{ margin:"auto"}}>
                         {/* text */}
                         <div style={{ width:"85%"}}>
-                            <h3 className={props.name+ "-grid-title"}>
+                            <h3 className={props.name+ "-grid-title"} style={{color:(data.titlecol)}}>
                                 {data.title}
                             </h3>
                             <p className={props.name+ "-grid-text"} >

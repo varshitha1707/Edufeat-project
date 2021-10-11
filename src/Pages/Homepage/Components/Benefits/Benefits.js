@@ -10,6 +10,7 @@ import './Benefits.css'
 function Benefits() {
     return (
         <div className="Benefits-UpContainer">
+            <h1 className="Benefits-title" >Benefits as a Tutor</h1>
         <AlternatingGrid values={benefits} name={'Benefits'}/>
         </div>
     )
