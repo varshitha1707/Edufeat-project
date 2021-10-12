@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Hero'
 import Slider from '../Components/slider'
 import Benefits from './Components/Benefits/Benefits'
 import Tow from './Components/TypesofWork/ToW'
+import FAQs from './Components/FAQs/FAQs'
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
             {/* <Slider/> */}
             <Benefits/>
             <Tow/>
+            <FAQs/>
         </div>
     )
 }
