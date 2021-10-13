@@ -1,5 +1,5 @@
 import React from 'react'
-import AlternatingGrid from '../../../Components/Alternating-grid/AG'
+import AlternatingGrid from '../../../../Components/Alternating-grid/AG'
 import benefit1 from '../../../../Assets/benefits-desk/1.svg'
 import benefit2 from '../../../../Assets/benefits-desk/2.svg'
 import benefit3 from '../../../../Assets/benefits-desk/3.svg'

@@ -2,7 +2,7 @@ import React from 'react'
 import one from '../../../../Assets/TypesOfWork/1.svg'
 import two from '../../../../Assets/TypesOfWork/2.svg'
 import three from '../../../../Assets/TypesOfWork/3.svg'
-import AlternatingGrid from '../../../Components/Alternating-grid/AG';
+import AlternatingGrid from '../../../../Components/Alternating-grid/AG';
 import './ToW.css'
 
 const  Tow = () => {

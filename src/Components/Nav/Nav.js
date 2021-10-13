@@ -2,7 +2,7 @@ import React from 'react'
 import { AppBar, Link } from '@mui/material';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import img from '../../../Assets/edufeat-logo.png';
+import img from '../../Assets/edufeat-logo.png';
 import Divider from '@mui/material/Divider';
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
