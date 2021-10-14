@@ -9,9 +9,7 @@ import Footer from '../../Components/Footer/Footer'
 function Home() {
     return (
         <div>
-            <Nav/>
             <Hero/>
-            {/* <Slider/> */}
             <Benefits/>
             <Tow/>
             <FAQs/>

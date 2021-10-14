@@ -1,0 +1,15 @@
+.HeroA{
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.HeroA-img img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    align-self: center;
+
+}

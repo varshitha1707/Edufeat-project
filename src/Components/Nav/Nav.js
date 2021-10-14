@@ -18,7 +18,7 @@ const NavData =[
   {
     id:1,
     name:'About us',
-    url:'/aboutus',
+    url:'/about',
   },
   {
     id:2,
