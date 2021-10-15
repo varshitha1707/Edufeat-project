@@ -11,8 +11,11 @@ const  Tow = () => {
 
     return (
         <div className="ToW-UpContainer">
+            {/* title */}
             <h1 className="ToW-title" >Types of Work</h1>
+            {/* subtitle */}
             <h3 className="ToW-subtitle">The nature of work varies from Simple Questions to <br/> Project & Lab reports.</h3>
+            {/* alternating grid which maps the value */}
             <AlternatingGrid values={ToW} name={'ToW'}/>
         </div>
     )
@@ -20,7 +23,7 @@ const  Tow = () => {
 
 export default Tow
 
-
+// Data to be mapped
 const ToW = [
     {
         id: 1,

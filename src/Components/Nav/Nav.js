@@ -14,6 +14,7 @@ import List from '@mui/material/List';
 import './Nav.css'
 
 const drawerWidth = 240;
+// NavBar data
 const NavData =[
   {
     id:1,
@@ -52,6 +53,7 @@ export default function Nav() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 
+  // functions for the drawer open and close
   const handleDrawerOpen = () => {
     setOpen(true);
   };
@@ -73,12 +75,13 @@ export default function Nav() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar id="Nav" position="fixed" open={open}>
         <Toolbar>
-
+        {/* NavBar logo */}
           <IconButton id="logo" size="small" edge="start" color="inherit" aria-label="logo">
               <img src={img} alt="logo" id="logo-img"/>
           </IconButton>
 
           <div id="Nav-Links" style={{position:"absolute", right:"20px"}}>
+            {/* mapping the navBar data */}
             {NavData.map(link => (
               <a href={link.url}>
                 <Button key={link.id}>
@@ -87,7 +90,6 @@ export default function Nav() {
               </a>
             ))}
           </div>
-
           <IconButton id="OpenDrawer" size="large" edge="start" color="primary" aria-label="open drawer" edge="end" onClick={handleDrawerOpen}
           sx={{ ...(open && { display: 'none' })}}>
           <h9>+</h9>
@@ -95,6 +97,7 @@ export default function Nav() {
 
         </Toolbar>
       </AppBar>
+      {/* Side Drawer */}
       <Drawer
         sx={{
           width: drawerWidth,
@@ -114,6 +117,7 @@ export default function Nav() {
         </DrawerHeader>
         <Divider />
         <List>
+          {/* Drawer data mapped */}
           {NavData.map(link => (
             <ListItem button key={link.id}>
               <a href={link.url}>

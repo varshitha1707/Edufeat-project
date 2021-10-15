@@ -15,6 +15,7 @@ function Hero() {
         { width: 1200, itemsToShow: 1 },
         { width: 1400, itemsToShow: 1 },
     ]
+    // data to be mapped
     const heroData =[
         {
             id:'1',

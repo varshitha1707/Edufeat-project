@@ -5,10 +5,12 @@ import './Footer.css'
 
 function Footer() {
     return (
-                <div className="footer-main">
-                <Container className="footer">
+        // footer starts here
+        <div className="footer-main">
+            <Container className="footer">
                 <div className="footer-container1">
                     <div className="footer-logo-div">
+                        {/* footer logo */}
                         <div className="footer-logo">
                             <img src={logo} alt='' />
                         </div>
@@ -61,7 +63,7 @@ function Footer() {
                         used for any other purpose or direct submission.</p>
                 </div>
             </Container>
-            </div>
+        </div>
     )
 }
 

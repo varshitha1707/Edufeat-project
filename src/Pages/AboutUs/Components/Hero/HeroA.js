@@ -7,11 +7,9 @@ function HeroA() {
     return (
         <div className="HeroA">
             <div className="HeroA-img">
+                {/* hero svg */}
                 <img src={hero1} alt="hero-about" />
             </div>
-            {/* <div>
-                <img src={hero2} alt="hero-about-text" />
-            </div> */}
         </div>
     )
 }

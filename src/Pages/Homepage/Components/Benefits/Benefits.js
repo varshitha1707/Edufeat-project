@@ -10,7 +10,9 @@ import './Benefits.css'
 function Benefits() {
     return (
         <div className="Benefits-UpContainer">
+            {/* Title */}
             <h1 className="Benefits-title" >Benefits as a Tutor</h1>
+            {/* Alternating grid mapping the data */}
         <AlternatingGrid values={benefits} name={'Benefits'}/>
         </div>
     )
@@ -18,6 +20,7 @@ function Benefits() {
 
 export default Benefits
 
+// Data to be mapped
 const benefits =[
     {
         id: 1,
