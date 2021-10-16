@@ -1,0 +1,62 @@
+.CEO{
+    background-color: #F9F9FA;
+}
+
+.CEO-msg h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 97px;
+    color: #273468;
+}
+
+.CEO-msg p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 42px;
+    color: #273468;
+}
+
+.CEO-img{
+    max-width:80%;
+    /* border: 1px solid #0000;
+    display: block;
+    margin:auto; */
+}
+
+.animation{
+    background-color: #fff;
+    height: 80vh;
+}
+
+.Work-culture{
+    background-color: #F9F9FA;
+}
+
+.Work-culture-img{
+    max-width:80%;
+    /* border: 1px solid #0000; */
+    display: block;
+    margin:auto;
+}
+
+.Work-culture-msg h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 97px;
+    color: #273468;
+}
+
+.Work-culture-msg p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 42px;
+    color: #273468;
+}
