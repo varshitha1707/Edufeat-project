@@ -4,6 +4,7 @@
 
 #Stats-text-all{
     display: flex;
+    flex-direction: row;
     margin:auto
 }
 
@@ -33,4 +34,24 @@
     border: none;
     outline: none;
     padding: 10px 30px;
+}
+
+
+
+@media (max-width: 900px) {
+    #Stats-text-all{
+        flex-direction: column;
+        margin:auto
+    }
+
+    .Stats-text{
+        text-align: center;
+        padding:5px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    
 }

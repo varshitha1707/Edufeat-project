@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer/Footer'
 import Timeline from './Components/Timeline/Timeline'
 import Team from './Components/Team/Team'
 import JoinUs from './Components/JoinUs/JoinUs'
-
+// a little tweaking in the css left
 function About() {
     return (
         <div>

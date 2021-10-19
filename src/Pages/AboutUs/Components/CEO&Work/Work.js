@@ -9,8 +9,8 @@ function Work() {
         <div>
             <div className="CEO">
                 <Container>
-                    <Grid container>
-                        <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className="CEO-msg">
+                    <Grid container direction={window.innerWidth<900?'row':'row-reverse'}>
+                        <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className="CEO-msg" >
                             <h1>CEO’s  Message</h1>
                             <p>
                             Strive for betterment, then perfection...
@@ -19,7 +19,7 @@ function Work() {
                             that we were once able to leave a beautiful mark in some part of your life.</p>
                         </Grid>
                         <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className="CEO-img">
-                            <img src={ceo} alt="ceo" style={{border:"black solid 1px", margin:"auto", display:"block"}}/>
+                            <img src={ceo} alt="ceo" style={{border:"black solid 1px", margin:"auto", display:"block", width:"80%"}}/>
                         </Grid>
                     </Grid>
                 </Container>
@@ -31,7 +31,7 @@ function Work() {
                 <Container>
                     <Grid container >
                         <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className="Work-culture-img">
-                            <img src={work} alt="ceo" style={{border:"black solid 1px", margin:"auto", display:"block"}}/>
+                            <img src={work} alt="ceo" style={{border:"black solid 1px", margin:"auto", display:"block", width:"80%"}}/>
                         </Grid>
                         <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className="Work-culture-msg">
                             <h1>Work life and Culture</h1>

@@ -21,7 +21,7 @@ function JoinUs() {
             </div>
             <div>
                 <div>
-                    <img src={guy} alt="guy" className="guy" />
+                    <img src={guy} alt="guy" className="guy" style={{width:"90%", maxWidth:"600px"}}/>
                 </div>
                 <div className="joinUs">
                     <a href="/">

@@ -11,3 +11,18 @@
 .Team-img{
     
 }
+
+@media (max-width: 800px) {
+
+    .Team-title{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    /* .Team-title{
+        font-size: 15px;
+    } */
+}
