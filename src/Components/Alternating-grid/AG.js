@@ -16,7 +16,7 @@ const  AlternatingGrid = (props) => {
         <Container className={props.name + "-Main-Container"}>
             {/* mapping out the values */}
             {props.values.map(data=>(
-                <Grid container className={props.name + "-grid-container"} key={data.id} direction={alternate(data.id)} >                           
+                <Grid container className={props.name + "-grid-container", props.rank} key={data.id} direction={alternate(data.id)} >                           
                     <Grid item className={props.name + "-grid-item-img"} xs={12} sm={12} md={6} lg={6} >
                         {/* image */}
                         <div>

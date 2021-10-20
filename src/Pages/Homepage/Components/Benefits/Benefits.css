@@ -20,6 +20,7 @@
 .Benefits-grid-container{
     padding-bottom: 100px;
     padding-left: 40px;
+    margin-top: 40px;
 
 }
 
@@ -70,3 +71,109 @@
         font-size: 12px;
     }
 }
+/* .line {
+    width: 6px;
+    max-height: 2000px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 43px;
+    z-index: 1;
+    background-color:#023047;
+  } */
+
+/* qaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+/* *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  .first{
+    width: auto;
+    height:500px;
+    background-color:  #fdfffc;
+    margin-top: 30px;
+  }
+  
+  .second{
+    width:auto;
+    height: 400px;
+    background-color: #e0fbfc;
+  }
+  
+  .third{
+    width: auto;
+    height: 400px;
+    background-color: #fdfffc;
+  }
+  
+  
+
+
+  
+    
+  /* max-height: 181001px;
+  height: 100%;
+  position: absolute;
+  top: 20;
+  bottom: 0;
+  left: 43px;
+  z-index: 1;
+  width: 100%;
+  max-width: 40px;
+  height: 200px;
+  margin-top:50px;
+  position: relative;
+  display: flex;  
+  
+  h1{
+    text-align: center;
+    padding-top: 90px;
+    color: #023047;
+    font-size: 60px;
+  }
+  
+  .first-paragraph{
+    text-align: center;
+    color: #023047;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .logo-main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #workout-logo{
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+  }
+  
+  
+  #gsap-logo{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    padding-right: 80px;
+  }
+  
+  #happy-logo{
+    width: 500px;
+    height: 300px;
+  }
+  
+  .second-paragraph{
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  
+  .third-paragraph{
+    font-size: 30px;
+    margin-top: 40px;
+  } */

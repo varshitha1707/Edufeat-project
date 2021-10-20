@@ -4,12 +4,14 @@ import Benefits from './Components/Benefits/Benefits'
 import Tow from './Components/TypesofWork/ToW'
 import FAQs from './Components/FAQs/FAQs'
 import Footer from '../../Components/Footer/Footer'
+import Test from './Components/test/test'
 
 function Home() {
     return (
         <div>
             <Hero/>
-            <Benefits/>
+            {/* <Benefits/> */}
+            <Test/>
             <Tow/>
             <FAQs/>
             <Footer/>

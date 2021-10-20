@@ -11,7 +11,7 @@
 }
 
 .Waw-text{
-    /* max-width: 50%; */
+    max-width: 50%;
     padding-right:20px;
 }
 
@@ -32,13 +32,13 @@
 }
 
 .Waw-img{
-    max-width:30%;
+    max-width:90%;
     display: block;
     margin: auto;
-    border:black solid 1px;
+    /* border:black solid 1px; */
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
     #Waw-container{
         flex-direction:column-reverse;
@@ -46,18 +46,25 @@
     }
     .Waw-text h1{
         font-size: 29px;
+        text-align: center;
     }
     
     .Waw-text p{
         line-height: 22px;
     }
+
+    
+.Waw-text{
+    max-width: 100%;
+    text-align: justify;
+}
     
 }
 
 @media (max-width: 350px) {
 
     
-    .Waw-container{
+    /* .Waw-container{
         flex-direction:column;
-    }
+    } */
 }

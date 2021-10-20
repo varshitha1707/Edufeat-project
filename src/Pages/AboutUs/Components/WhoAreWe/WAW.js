@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container} from '@material-ui/core'
-import waw from '../../../../Assets/About/Waw.svg'
+import waw from '../../../../Assets/About/Waw.png'
 import './WAW.css'
 
 function WAW() {
@@ -13,7 +13,7 @@ function WAW() {
                 </div>                
                 <div className="Waw-img">
                     <img src={waw} alt="" 
-                    style={{border:"black solid 1px", width:"100%"}}
+                    style={{ width:"100%"}}
                     />
                 </div>
             </Container>     

@@ -32,6 +32,8 @@
 
 .Work-culture{
     background-color: #F9F9FA;
+    padding-top: 50px;
+    padding-bottom: 50px ;
 }
 
 .Work-culture-img{
@@ -57,29 +59,46 @@
     color: #273468;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
     .CEO-msg h1{
         font-size: 29px;
+        text-align: center;
     }
     
     .CEO-msg p{
         line-height: 22px;
     }
 
+    .CEO-msg{
+        text-align: justify;
+    }
+
     .Work-culture-msg h1{
         font-size: 29px;
+        text-align: center;
     }
     
     .Work-culture-msg p{
         line-height: 22px;
+    }
+
+    .Work-culture-msg{
+        text-align: justify;
+    }
+
+    
+    .Work-culture-img img{
+        max-width:50%;
+        /* border: 1px solid #0000; */
+        display: block;
+        margin:auto;
     }
     
 }
 
 @media (max-width: 350px) {
 
-    
     .Waw-container{
         flex-direction:column;
     }

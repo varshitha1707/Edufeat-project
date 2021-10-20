@@ -1,0 +1,85 @@
+#scroll-svg{
+  /* font-size: 1em; */
+  /* max-height:90%; */
+  max-width: 60%;
+  position: absolute;
+  top: 150px;
+  left: 140px;
+}
+#test{
+  position: relative;
+}
+
+.Benefits-UpContainer{
+  background-color: #F9F9FA;
+}
+.Benefits-title{
+  padding-top: 50px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  color: #273468;
+  text-align: center;
+
+}
+.Benefits-Main-Container{
+  margin-top: 90px;
+  width: inherit;
+  padding:30px;
+  background: #F9F9FA;
+}
+.Benefits-grid-container{
+  padding-bottom: 100px;
+  padding-left: 40px;
+  /* margin-top: 60px; */
+
+}
+
+.Benefits-img{
+  display: block;
+  margin: auto;
+  float: left;
+  /* width: 55%; */
+  width: 85%;
+}
+
+.Benefits-grid-title{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: left;
+  color: #273468
+}
+
+.Benefits-grid-text{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #474747;
+}
+
+
+@media (max-width: 600px) {
+  
+  .Benefits-grid-title{
+      font-size: 30px;
+  }
+  
+  .Benefits-grid-text{
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+
+  .Benefits-grid-title{
+      font-size: 25px;
+  }
+  
+  .Benefits-grid-text{
+      font-size: 12px;
+  }
+}
