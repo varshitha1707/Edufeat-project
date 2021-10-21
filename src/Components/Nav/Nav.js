@@ -11,6 +11,9 @@ import ListItem from '@mui/material/ListItem';
 import { Button } from '@mui/material';
 import ListItemText from '@mui/material/ListItemText';
 import List from '@mui/material/List';
+import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
+import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import './Nav.css'
 
 const drawerWidth = 240;
@@ -92,7 +95,7 @@ export default function Nav() {
           </div>
           <IconButton id="OpenDrawer" size="large" edge="start" color="primary" aria-label="open drawer" edge="end" onClick={handleDrawerOpen}
           sx={{ ...(open && { display: 'none' })}}>
-          <h9>+</h9>
+          <MenuOutlinedIcon />
           </IconButton>
 
         </Toolbar>
@@ -112,7 +115,13 @@ export default function Nav() {
         <DrawerHeader>
           <IconButton onClick={handleDrawerClose}>
             {theme.direction === 'rtl' ? 
-            ('-'): ('-')}
+            (
+            <CloseOutlinedIcon/>
+            ): (
+              <div style={{position:"absolute", right:"-200px"}}>
+                <MenuOutlinedIcon/>
+              </div>
+            )}
           </IconButton>
         </DrawerHeader>
         <Divider />
@@ -123,8 +132,18 @@ export default function Nav() {
               <a href={link.url}>
                 <ListItemText primary={link.name} />
               </a>
+              <div style={{position:"absolute", right:0}}>
+                <ChevronRightOutlinedIcon />
+              </div>
             </ListItem>
           ))}
+          <ListItem>
+            <a href=''>
+              <button id="Sign-in-btn">
+                <ListItemText primary="Sign Up" />
+              </button>
+            </a>
+          </ListItem>
         </List>
       </Drawer>
     </Box>

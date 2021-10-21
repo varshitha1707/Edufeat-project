@@ -1,9 +1,9 @@
 #scroll-svg{
   /* font-size: 1em; */
   /* max-height:90%; */
-  max-width: 60%;
+  max-width: 57%;
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 140px;
 }
 #test{
@@ -32,7 +32,7 @@
 .Benefits-grid-container{
   padding-bottom: 100px;
   padding-left: 40px;
-  /* margin-top: 60px; */
+  margin-top: 40px;
 
 }
 

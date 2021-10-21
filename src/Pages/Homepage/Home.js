@@ -5,6 +5,7 @@ import Tow from './Components/TypesofWork/ToW'
 import FAQs from './Components/FAQs/FAQs'
 import Footer from '../../Components/Footer/Footer'
 import Test from './Components/test/test'
+import Stj from './Components/Stepstojoin/Stj'
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
             {/* <Benefits/> */}
             <Test/>
             <Tow/>
+            <Stj/>
             <FAQs/>
             <Footer/>
         </div>
