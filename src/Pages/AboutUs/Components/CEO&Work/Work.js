@@ -26,6 +26,9 @@ function Work() {
                 </Container>
             </div>
             <div className="animation">
+                <h1>
+                    INSERT LOTTIE FILE HERE
+                </h1>
                 {/* Animation edufeat success*/}
             </div>
             <div className="Work-culture">

@@ -26,8 +26,12 @@
 }
 
 .animation{
-    background-color: #fff;
+    /* background-color: #fff; */
     height: 80vh;
+    display: block;
+    margin: auto;
+    width: 90%;
+    border: 2px solid black
 }
 
 .Work-culture{

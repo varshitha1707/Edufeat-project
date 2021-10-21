@@ -1,0 +1,101 @@
+.Timeline{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.Timeline-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+    color: #273468;
+}
+
+.Timeline-dates{
+
+}
+
+.dates{
+    display: flex;
+    /* display: block; */
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+}
+
+#dateimg-cont{
+    padding:10%;
+}
+
+#date-img{
+    width:100%;
+    /* padding-left:0%; */
+}
+
+#timeline-line{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.texts{
+    width: 100%;
+    display: flex;
+    /* display: block; */
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#text-cont{
+    margin: auto 0px;
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+    color: #000000;
+}
+
+p{
+    
+    width: 90%;
+}
+
+
+
+@media (max-width: 700px) {
+    .Timeline-dates{
+        display: flex;
+    }
+    .dates{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .line{
+        display: none;
+    }
+    .texts{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        
+    }
+    
+    
+}
+
+@media (max-width: 350px) {
+
+    
+    /* .Waw-container{
+        flex-direction:column;
+    } */
+}
